@@ -1,0 +1,12 @@
+body {
+    background-color:aliceblue;
+    background-image: url(noun_image.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+}

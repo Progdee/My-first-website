@@ -1,0 +1,44 @@
+.inline {
+    display: -webkit-inline-flex;
+    spacing: 10px;
+    border: 2px;
+    margin: 1.2rem;
+    text-decoration-line:underline;
+    padding: 1px;
+    margin: 1px;
+}
+
+.PSA {
+    background-color:blanchedalmond;
+    color:blueviolet;
+}
+
+.first {
+    padding: 1px;
+    margin: 1px;
+}
+
+.PSD {
+    background-color:lightgoldenrodyellow;
+    color:brown
+}
+
+.Mission {
+    background-color:pink;
+    color:black;
+}
+
+body {
+    background-color: azure;
+    background-image: url("download.jpg");
+    background-position: right top;
+    border-style:outset;
+    border-radius:2em; 
+    border-width: 5px;
+    border-color:blueviolet blue red peru;
+    margin: 1em;
+    padding: 0px 10px;
+    outline-style: double;
+    outline-color: royalblue;
+    outline-width: thick;
+}

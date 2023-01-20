@@ -1,0 +1,74 @@
+body {
+    background-color:aliceblue;
+    background-image: url(noun_image.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+    font-size: 100%;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    display: block;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.resetbtn, .signupbtn {
+    padding: 14px 20px;
+    float: center;
+    width: 20%;
+    display: block;
+}
+
+
+.container {
+    padding: 16px;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    display: block;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    display: block;
+}
+
+@media screen and (max-width: 300px) {
+    .resetbtn, .signupbtn {
+        width: 100%;
+    }
+}
